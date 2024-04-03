@@ -67,7 +67,7 @@ contactForm.addEventListener('submit', sendEmail)
 const scrollUp = () => {
     const scrollUp = document.getElementById('scroll-up')
 
-    this.scrolly >= 350 ? scrollUp.classList.add('show-scroll')
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
                 : scrollUp.classList.remove('show-scroll')
 }
 
@@ -92,4 +92,4 @@ const scrollActive = () =>{
     })
 }
 window.addEventListener('scroll', scrollActive)
-// -- ---------- SCROLL REVEAL ANIMATION ---------- --
+
